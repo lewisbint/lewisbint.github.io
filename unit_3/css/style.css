@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 
-body {
-	text-align: center;
-	background-color: #282828;
+body {text-align: center;
+	background-color: white;
 	font-family: 'Questrial', sans-serif;
 	line-height: 1.5em;
 	}
 
 h1 {color: red;
 	font-size: 60px;
+	line-height: 1.5em;
 	margin-bottom: 20px;
 	}
 
@@ -17,68 +17,71 @@ h2 {color: red;
 	line-height: 1.5em;
 }
 
+h3 {color: #282828;
+	font-size: 20px
+	line-height: 1.5em;
+}
+
 p {color: #282828;
 	font-size: 14px;
 	line-height: 1.5em;
 	}
-/*
-ul {
-	color: white;
-}*/
 
-.main-heading {
-	font-size: 60px;
-	color: red;
-/*	text-transform: uppercase;*/
-}
-
-.slogan {
-	color: white;
-	font-size: 20px;
-/*	font-weight: bold;*/
-	bottom: 30px;
-    width: 100%;
-    position: absolute;
-    margin-right: 8px;
-    margin-left: 8px;
-}
-
-.container {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.hero {
-	width: 100%;
-	height: 100%;
-	background: url("../images/shutterstock_1177544245.jpg");
-	background-size: cover;
+#hero-image {
+	background-image: url(../images/hero-image.jpg);
+	background-position: center;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-size: cover;
 	position: relative;
-	text-align: center;
+	height: 100%;
+	padding: 365px;
 }
 
-.about-event-section {
-	background-color: white;
-	padding-top: 10px;
-	padding-left: 60px;
-	padding-right: 60px;
-	padding-bottom: 30px;
+#menu {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+ 	margin: 20px;
+ 	width: auto;
 }
 
-.whats-on {
-	padding-top: 10px;
-	padding-left: 60px;
-	padding-right: 60px;
-	padding-bottom: 30px;
-/*	position: relative;*/
+#topnav {
+	overflow: hidden;
+ 	background-color: none;
 }
 
-.list_1 {
+#topnav a {
+	float: left;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 14px 30px;
+ 	text-decoration: none;
+ 	font-size: 18px;
+}
+
+#topnav a:hover {
+ 	color: red;
+}
+
+#slogan {
+	position: absolute;
+	bottom: 25px;
+	color: white;
+	font-size: 20px
+	line-height: 1.5em;
+}
+
+#banner-image-1 {
+	background-image: url(../images/lamborghini-aventador-sv_edit.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100%;
+	padding: 70px;
+}
+
+/*.list_1 {
 	color: white;
 	text-align: center;
 	font-size: 18px;
@@ -87,17 +90,30 @@ ul {
 	margin: 0;
 	padding: 0px;
 	padding-bottom: 30px;
+}*/
+
+.button {
+	background-color: transparent;
+	border: 3px solid white;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+/*	display: inline-block;*/
+	font-size: 16px;
 }
 
-.footer {
-	background-color: #111111;
-	padding-top: 5px;
-	padding-left: 60px;
-	padding-right: 60px;
-	padding-bottom: 30px;
-}
-
-.email-link:link {
-  color: white;
-  font-size: 20px;
+.button:hover {
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 10px;
+	color: red;
+	padding: 15px 32px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+/*	display: inline-block;*/
+	font-size: 16px;
 }
