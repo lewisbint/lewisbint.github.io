@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 
-body {text-align: center;
+body {text-align: left;
 	background-color: white;
 	font-family: 'Questrial', sans-serif;
 	line-height: 1.5em;
@@ -65,6 +65,8 @@ p {color: #282828;
 
 #slogan {
 	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
 	bottom: 25px;
 	color: white;
 	font-size: 20px
