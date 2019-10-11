@@ -107,6 +107,10 @@ p {color: #282828;
 	line-height: 1.5em;
 }
 
+#whats-on {
+
+}
+
 #banner-image-1 {
 	background-image: url(../images/lamborghini-aventador-sv_edit.jpg);
 	background-position: center;
@@ -115,6 +119,12 @@ p {color: #282828;
 	position: relative;
 	height: 100%;
 	padding: 70px;
+}
+
+.supercar-article {
+	display: inline-block;
+	float: left
+	width: 16px;
 }
 
 .button {
