@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+* {margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {text-align: left;
+	background-color: white;
+	font-family: 'Questrial', sans-serif;
+	line-height: 1.5em;
+	}
+
+header {border: 1px black solid;
+}
+
+article {
+	padding: 20px;
+	border: 1px black solid;
+}
+
+footer {
+	padding: 20px;
+	border: 1px black solid;
+}
+
+section {
+	padding: 20px;
+	border: 1px black solid;
+}
+
+div {
+	border: 1px black solid;
+}
+
+h1 {color: red;
+	font-size: 60px;
+	line-height: 1.5em;
+	}
+
+h2 {color: red;
+	font-size: 30px;
+	line-height: 1.5em;
+}
+
+h3 {color: #282828;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+p {color: #282828;
+	font-size: 14px;
+	line-height: 1.5em;
+	}
+
+#hero-image {
+	background-image: url(../images/hero-image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100%;
+	padding: 365px;
+}
+
+#menu {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+ 	margin: 20px;
+ 	width: auto;
+}
+
+#topnav {
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+    top: 0;
+    z-index: 100;
+    padding: 20px;
+}
+
+#topnav a {
+ 	color: white;
+ 	text-align: center;
+ 	padding: 14px 30px;
+ 	text-decoration: none;
+ 	font-size: 18px;
+}
+
+#topnav a:hover {
+ 	color: red;
+}
+
+#slogan {
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 25px;
+	color: white;
+	line-height: 1.5em;
+}
+
+#banner-image-1 {
+	background-image: url(../images/lamborghini-aventador-sv_edit.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100%;
+	padding: 70px;
+}
+
+.button {
+	background-color: transparent;
+	border: 3px solid white;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+/*	display: inline-block;*/
+	font-size: 16px;
+}
+
+.button:hover {
+	background-color: white;
+/*	border: 3px solid white;
+	border-radius: 10px;*/
+	color: red;
+	padding: 15px 32px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+/*	display: inline-block;*/
+	font-size: 16px;
+}
+
+.articles-wrapper {
+	position: relative;
+}
+
+.whats-on-article {
+	width: 33%;
+    display: inline-block;
+	vertical-align: top;
+    min-height: 137px;
+    padding: 20px;
+}
+
+.supercar-article {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
