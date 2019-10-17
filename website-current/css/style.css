@@ -11,26 +11,35 @@ body {text-align: left;
 	line-height: 1.5em;
 	}
 
-header {border: 1px black solid;
+header {
+	/*border: 1px black solid;*/
+}
+
+footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: red;
+	text-align: center;
+/*	border: 1px black solid;*/
 }
 
 article {
 	padding: 20px;
-	border: 1px black solid;
-}
-
-footer {
-	padding: 20px;
-	border: 1px black solid;
 }
 
 section {
-	padding: 20px;
-	border: 1px black solid;
+	padding: 40px;
+/*	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;*/
+/*	border: 1px black solid;*/
 }
 
 div {
-	border: 1px black solid;
+/*	border: 1px black solid;*/
 }
 
 h1 {color: red;
@@ -52,6 +61,15 @@ p {color: #282828;
 	font-size: 14px;
 	line-height: 1.5em;
 	}
+
+a {color: white;
+	font-size: 20px;
+}
+
+#h2-white {
+	color: white;
+	font-size: 30px;
+}
 
 #hero-image {
 	background-image: url(../images/hero-image.jpg);
@@ -77,7 +95,8 @@ p {color: #282828;
     margin-top: 0;
     top: 0;
     z-index: 100;
-    padding: 20px;
+    padding: 30px;
+    float: right;
 }
 
 #topnav a {
@@ -111,6 +130,27 @@ p {color: #282828;
 	position: relative;
 	height: 100%;
 	padding: 70px;
+}
+
+#banner-image-2 {
+	background-image: url(../images/edits/zonda-banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	height: 100%;
+	text-align: center;
+}
+
+#banner-heading {
+	text-transform: uppercase;
+	color: white;
+}
+
+.background-grey {
+	background-color: #f1f1f1;
 }
 
 .button {
