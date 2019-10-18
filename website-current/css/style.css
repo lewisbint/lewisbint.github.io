@@ -133,7 +133,7 @@ a {color: white;
 }
 
 #banner-image-2 {
-	background-image: url(../images/edits/zonda-banner.jpg);
+	background-image: url(../images/edits/zonda-banner-red.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -195,4 +195,10 @@ a {color: white;
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
 }
