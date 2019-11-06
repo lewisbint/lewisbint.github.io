@@ -59,33 +59,57 @@ a {color: white;
 	padding: 22em;
 }
 
-#menu {
-	position: absolute;
-	top: 1em;
-	right: 1em;
- 	margin: 2em;
- 	width: auto;
+#nav-logo {
+	height: 6em;
+    margin: 2em;
 }
 
-#topnav {
-    position: absolute;
-    margin-top: 0;
-    top: 0;
-    z-index: 100;
-    padding: 2.5em;
-    right: 0;
+.nav {
+/*	position: absolute;*/
+	margin-top: 0;
+	top: 0;
+	z-index: 100;
+	right: 0;
+	background-color: #000;
+	text-align: left;
+	display: block;
 }
 
-#topnav a {
- 	color: white;
- 	text-align: center;
+.menu {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+}
+
+.menu a {
+	clear: right;
+	color: white;
+	text-align: center;
  	padding: 1.4em 1.4em;
  	text-decoration: none;
  	font-size: 1.2em;
+ 	display: inline-block;
 }
 
-#topnav a:hover {
- 	color: red;
+.menu a:hover {
+	color: red;
+}
+
+span {
+	color: darkgoldenrod;
+}
+
+label {
+	font-size: 2em;
+	display: none;
+	width: 1.5em;
+	float: right;
+	color: darkgoldenrod;
+}
+
+#toggle {
+	height: 25px;
+	display: none;
 }
 
 #slogan {
@@ -127,7 +151,11 @@ a {color: white;
 }
 
 #left-image {
+	background-image: url(../images/imola.jpg);
+	background-size: cover;
 	float: left;
+	padding: 18em 20em;
+	width: 50%;
 }
 
 #small-paragraph {
@@ -136,7 +164,7 @@ a {color: white;
 }
 
 #half-text {
-	float: left;
+	float: right;
 	width: 50%;
 	padding: 3em;
 }
@@ -197,11 +225,12 @@ a {color: white;
 
 	#left-image {
 		float: none;
-		width: 50%;	
+		width: 100%
 	}
 
 	#half-text {
 		float: none;
+		background-position: center;
 		width: 100%;
 	}
 
@@ -213,6 +242,34 @@ a {color: white;
 
 	.wrapper {
 		padding: 2em;
+	}
+}
+
+@media only screen and (max-width: 968px) {
+	label {
+		display: block;
+		cursor: pointer;
+	}
+
+	.menu {
+		text-align: center;
+		width: 100%;
+		display: none;
+	}
+
+	.menu a {
+		display: block;
+		margin: 0;
+		padding: 0.8em 0;
+	}
+
+	#toggle {
+		display: block;
+		visibility: hidden;
+	}
+
+	#toggle:checked + .menu {
+		display: block;
 	}
 }
 
@@ -260,6 +317,10 @@ a {color: white;
 	.whats-on-article {
 		width: 100%;
 		float: none;
+	}
+
+	#slogan {
+	font-size: 0.9em;
 	}
 
 }
